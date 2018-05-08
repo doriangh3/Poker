@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pokerGreen">#467F00</color>
+    <color name="pokerRed">#790000</color>
+    <color name="pokerWhite">#ffffff</color>
+    <color name="pokerBlue">#4253b3</color>
+    <color name="pokerDarkBlue">#2a3fba</color>
+    <color name="pokerBlack">#000000</color>
+</resources>

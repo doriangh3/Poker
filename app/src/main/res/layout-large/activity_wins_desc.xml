@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.wcu.ddbarrier1.poker.WinsDescActivity"
+    android:background="@color/pokerGreen"
+    android:weightSum="5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.17"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1">
+
+        <TextView
+            android:id="@+id/nameHand2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name's Hand"
+            android:gravity="center_horizontal"
+            android:textSize="40dp"
+            android:textColor="@color/pokerWhite"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".55"
+        android:weightSum="5"
+        >
+
+
+        <ImageView
+            android:id="@+id/card12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/back"
+            android:layout_marginHorizontal="10dp"/>
+
+        <ImageView
+            android:id="@+id/card22"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/back"
+            android:layout_marginHorizontal="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/card32"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/back"
+            android:layout_marginHorizontal="10dp"/>
+
+        <ImageView
+            android:id="@+id/card42"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/back"
+            android:layout_marginHorizontal="10dp"/>
+
+        <ImageView
+            android:id="@+id/card52"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/back"
+            android:layout_marginHorizontal="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1">
+
+        <TextView
+            android:id="@+id/winDescriptions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/default_description"
+            android:gravity="center_horizontal"
+            android:textSize="40dp"
+            android:textColor="@color/pokerWhite"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.09"
+        android:weightSum="3"
+        >
+
+    </LinearLayout>
+
+</LinearLayout>

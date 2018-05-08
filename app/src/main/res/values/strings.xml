@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Poker</string>
+    <string name="poker_app">Poker Game</string>
+    <string name="player_name">Player Name</string>
+    <string name="play">Play</string>
+    <string name="view_hands">View Hands</string>
+    <string name="ok_button">Ok</string>
+    <string name="enter_name">Enter Player Name</string>
+    <string name="hands_played">Hands Played: 0</string>
+    <string name="bank">Bank: $0</string>
+    <string name="player_hand">Name\'s Hand</string>
+    <string name="hold">Hold</string>
+    <string name="throw_card">Throw</string>
+    <string name="menu">Menu</string>
+    <string name="deal">Deal</string>
+    <string name="wins">Wins</string>
+    <string name="wins_screen">=Wins=</string>
+    <string name="default_wins">000 hand type</string>
+    <string name="default_description">Default Win Description</string>
+    <string name="royal_flush_desc">All cards are the same suit, run in sequence A, K, Q, j, 10</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_wins_desc">WinsDescActivity</string>
+</resources>

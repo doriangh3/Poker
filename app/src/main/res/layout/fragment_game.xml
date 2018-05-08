@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.wcu.ddbarrier1.poker.GameFragment"
+    android:background="@color/pokerGreen"
+    android:weightSum="5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.17"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/handsPlayed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hands_played"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"
+            android:textColor="@color/pokerWhite"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/bank"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/bank"
+            android:gravity="end"
+            android:layout_marginHorizontal="20dp"
+            android:textColor="@color/pokerWhite"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1">
+
+        <TextView
+            android:id="@+id/nameHand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name's Hand"
+            android:gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="@color/pokerWhite"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".55"
+        android:weightSum="5"
+        >
+
+
+        <ImageView
+            android:id="@+id/card1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/back"
+            android:layout_marginHorizontal="10dp"/>
+
+        <ImageView
+            android:id="@+id/card2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/back"
+            android:layout_marginHorizontal="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/card3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/back"
+            android:layout_marginHorizontal="10dp"/>
+
+        <ImageView
+            android:id="@+id/card4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/back"
+            android:layout_marginHorizontal="10dp"/>
+
+        <ImageView
+            android:id="@+id/card5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/back"
+            android:layout_marginHorizontal="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/hold1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hold"/>
+
+        <Button
+            android:id="@+id/hold2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hold"/>
+
+        <Button
+            android:id="@+id/hold3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hold"/>
+
+        <Button
+            android:id="@+id/hold4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hold"/>
+
+        <Button
+            android:id="@+id/hold5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/hold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.09"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/menuBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/menu"
+            style="@style/button_style2"
+            android:layout_marginHorizontal="10dp"/>
+
+        <Button
+            android:id="@+id/dealBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/deal"
+            style="@style/button_style2"
+            android:layout_marginHorizontal="10dp"
+            />
+
+        <Button
+            android:id="@+id/winsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/wins"
+            style="@style/button_style2"
+            android:layout_marginHorizontal="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

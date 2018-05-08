@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.wcu.ddbarrier1.poker.MainMenu"
+    android:background="@color/pokerGreen"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/poker_app"
+        android:textColor="@color/pokerWhite"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="45dp"/>
+
+    <Button
+        android:id="@+id/playerNameBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/player_name"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="10dp"
+        style="@style/button_style2"/>
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:layout_marginHorizontal="60dp"
+        style="@style/button_style2"
+        android:layout_marginVertical="10dp"/>
+
+    <Button
+        android:id="@+id/viewHandBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_hands"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="10dp"
+        style="@style/button_style2"
+        />
+
+
+
+</LinearLayout>
