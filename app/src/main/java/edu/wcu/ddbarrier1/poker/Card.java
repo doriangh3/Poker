@@ -2,8 +2,6 @@ package edu.wcu.ddbarrier1.poker;
 //#############################################################################
 /**
  *
- * @author Dr. Andrew Scott and Dr. William Kreahling
- * @version V1.1 Jab 2015
  *
  * This card models a playing card which can have the suit, Spade, Heart, Club or
  * Diamond. It can also be an ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen or
@@ -131,8 +129,6 @@ public class Card {
 //#############################################################################
 /**
  *
- * @author Dr. Andrew Scott and Dr. Whilliam Kreahling.
- * @Version v1.1 Jan 2015
  *
  * An enumeration to model the names and values of cards as well as their rank.
  * <br>
@@ -227,8 +223,6 @@ enum Face {
 //#############################################################################
 /**
  *
- * @author Dr. Andrew Scott and Dr. William Kreahling.
- * @version V1.1 Jan 2015
  *
  * A set of enumerate objects to define the suits in a pack of cards.
  *
@@ -279,8 +273,6 @@ enum Suit {
 //#############################################################################
 /**
  *
- * @author Dr. Andrew Scott and Dr William Kreahling/
- * @version V1.1 Jan 2015
  *
  * Enumerate objects that define the win hands in  a game of 5 card draw.
  *
@@ -303,6 +295,8 @@ enum WinHand {
 
     /** The name of the hand.*/
     private String name;
+
+    private String used;
 
 
 
